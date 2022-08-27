@@ -1,0 +1,28 @@
+main{
+    background-color: #f9faf8;
+    height: calc(100vh - 100px);
+    padding: 80px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+}
+.grid div img{
+    width: 250px;
+    height: 250px;
+}
+.grid div h3{
+    width: 250px;
+    text-align: center;
+    font-weight: 300;
+}
+.grid div h3 span{
+    display: block;
+    font-weight: bold;
+}

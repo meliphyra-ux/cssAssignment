@@ -1,0 +1,38 @@
+main.flex{
+    background-color: #1f2937;
+    height: calc(100vh - 100px);
+    justify-content: center;
+    flex-direction: column;
+}
+main h1{
+    color: #f9faf8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+form.flex{
+    flex-direction: column;
+}
+input, textarea{
+    min-width: 400px;
+    min-height: 60px;
+    padding: 5px;    
+    font-size: 16px;
+}
+textarea[name="text"]{
+    margin-top: 10px;
+    height: 400px;
+}
+button{
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #f9faf8;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 25px;
+    margin-top: 20px;
+    transition: all 0.2s ease;
+}
+button:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+}

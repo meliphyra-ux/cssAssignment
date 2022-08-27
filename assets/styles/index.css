@@ -1,0 +1,118 @@
+/* Introduction section */
+.introduction{
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+.introduction img{
+    height: 400px;
+    margin-left: 40px;
+}
+.introduction h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.introduction p{
+    color: #e5e7eb;
+}
+.introduction button{
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #f9faf8;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 25px;
+    margin-top: 20px;
+    transition: all 0.2s ease;
+}
+.introduction button:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+/* Knifes info section */
+.knifes-info{
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+}
+.knifes-info h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.knifes-info .flex div img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 5px solid #3882f6
+}
+.knifes-info .flex div h3{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 15px;
+}
+.knifes-info .flex div{
+    margin: 0 25px;
+}
+/* Quote section */
+.quote{
+    background-color: #e5e7eb;
+    height: 50vh;
+    justify-content: center;
+}
+.quote p{
+    position: relative;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+.quote p span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+}
+/* Action section */
+.action{
+    height: 40vh;
+    justify-content: center;
+}
+.action .flex{
+    width: 1300px;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+.action .flex div{
+    color: #f9faf8;
+}
+.action .flex div h3{
+    font-size: 36px;
+}
+.action .flex div p{
+    font-size: 24px;
+}
+.action .flex button{
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.action .flex button:hover{
+    color: #3882f6;
+    background-color: #f9faf8;
+}
+/* Footer section */
+footer{
+    height: 10vh;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #f9faf8
+}
